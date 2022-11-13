@@ -3,10 +3,16 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.assignment {
+.assignments {
     display: flex;
-    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.assignment {
+    width: 22%;
+    padding: 20px 10px;
     margin: 10px;
+    padding: 20px 10px;
     background: #6CEAFF;
     border-radius: 10px;
 }
@@ -15,6 +21,8 @@ body {
     width: 200px;
     margin: 10px;
     border: 2px solid rgb(69, 155, 126);
+    display: block;
+    margin: auto
 }
 
 .assignment img:hover {
@@ -22,6 +30,11 @@ body {
 }
 
 h1 {
+    color: #36747F;
+    text-align: center;
+}
+
+h2 {
     color: #36747F;
     text-align: center;
 }
