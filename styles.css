@@ -1,5 +1,5 @@
 body {
-    background: rgb(222, 78, 78);
+    background: #B8F5FF;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -7,15 +7,31 @@ body {
     display: flex;
     padding: 10px;
     margin: 10px;
-    background: lightcyan;
+    background: #6CEAFF;
+    border-radius: 10px;
 }
 
 .assignment img {
     width: 200px;
-    padding: 10px;
+    margin: 10px;
+    border: 2px solid rgb(69, 155, 126);
+}
+
+.assignment img:hover {
+    border: 2px dashed rgb(69, 155, 126);
 }
 
 h1 {
-    color: rgb(0, 0, 255);
+    color: #36747F;
     text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color:#36747F;
+}
+
+a:hover {
+    color: #FFF;
+
 }
